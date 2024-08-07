@@ -1,8 +1,8 @@
 const express = require('express');
-const routerGenre = require('./genreRouter');
-const routerActor = require('./actorRouter');
-const routerDirector = require('./directorRouter');
-const routerMovie = require('./movieRouter');
+const routerGenre = require('./genre.router');
+const routerActor = require('./actor.router');
+const routerDirector = require('./director.router');
+const routerMovie = require('./movie.router');
 
 const router = express.Router();
 
